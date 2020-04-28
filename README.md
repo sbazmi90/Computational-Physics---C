@@ -5,4 +5,6 @@ We try to solve some fundamental computational physics problems with C in this r
 
 Section 1: Ordinary Differential Equation:
 
-problem 1: Oscillatory motion
+problem 1: Oscilattory motion
+
+Problem 2: Charging and discharging a RC circuit
