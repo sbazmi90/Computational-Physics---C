@@ -1,5 +1,5 @@
 # Computational-Physics---C
-We try to solve some fundamental computational physics problems with C in this repository.
+We try to solve some fundamental and easy computational physics problems with C in this repository.
 
 
 
