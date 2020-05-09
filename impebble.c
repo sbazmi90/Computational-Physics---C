@@ -2,7 +2,8 @@
 
 
 /* This program demonstrates the pebble game in the very simple way */
-/* This is a homogeneous pebble game */
+/* This is a imhomogeneous pebble game */
+/* In this case, imhomogenity means ther are different wight for each lattice point */
 
 
 #include <stdio.h>
@@ -18,7 +19,7 @@ int main(){
   /* At the first, we should make array for sites, it is like a 2 dim lattice*/
   /* I am using allocation method for the memory*/
   int **lattice;
-  int X = 12;
+  static int X = 10;
   /* Initialize the pointer to allocate the memory*/
   lattice = new int* [X];
   
@@ -41,28 +42,22 @@ int main(){
 	}
       printf("\n");
     }
-  /* Do the algorithm, pick a random point and see is it accept the condition or not*/
-  int TMAX = 1000;
-  int hist = 0;
-  for(int T = 0; T < TMAX; T++)
+  printf("**********************\n");
+  // Define histo array to save the numbers of pick
+
+  char histo[10];
+  for(int i = 0; i < 10; i++)
     {
-      double r1 = rand();
-      double r2 = rand();
-      r1 = r1 / RAND_MAX;
-      r2 = r2 / RAND_MAX;
-      r1 = r1 * 10 + 2;
-      r2 = r2 * 10 + 2;
-      int R1 = int(r1);
-      int R2 = int(r2);
-      if(lattice[R1][R2] < 3)
-	{
-	  hist++;
-	}
-      if(lattice[R1][R2] >= 3)
-	{
-	  hist--;
-	}
+      histo[i] = 0;
+      printf("%d\t",histo[0]);
     }
-      printf("%d",hist);
+  // Define weight
+  char weight[9] = [3.0,1.0,0.5,1.5,2.0,1.0,2.5,3.0,1.0];
+  for(int i = 0; i < 10000; i++)
+    {
+      int newpos = 0;
+    }
+  //histo[0] = 1;
+  //printf("%d\n",histo[0]);
   return 0;
 }
