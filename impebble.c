@@ -52,12 +52,37 @@ int main(){
       printf("%d\t",histo[0]);
     }
   // Define weight
-  char weight[9] = [3.0,1.0,0.5,1.5,2.0,1.0,2.5,3.0,1.0];
+  char weight[9];
+  for(int i = 0; i < 5; i++)
+    {
+      weight[i] = 1.0;
+    }
+  for(int i = 5; i < 10; i++)
+    {
+      weight[i] = 2.0;
+    }
   for(int i = 0; i < 10000; i++)
     {
       int newpos = 0;
+      int pos = 8;
+      double rr = rand();
+      rr = rr / RAND_MAX;
+      rr = rr * 3;
+      int RR = int(rr);
+      newpos = lattice[8][RR];
+      double rrr = rand();
+      rrr = rrr / RAND_MAX;
+      if (rrr < weight[pos] / weight[newpos])
+	{
+	  pos = newpos;
+	}
+      histo[pos] = histo[pos] + 1;
+      
     }
   //histo[0] = 1;
-  //printf("%d\n",histo[0]);
+  for(int k = 0; k < 10; k++)
+    {
+      printf("%d\n",histo[k]);
+    }
   return 0;
 }
