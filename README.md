@@ -13,6 +13,8 @@ Problem 4: Finding pi number with Monte Carlo method
 
 Problem 5: Finding pi number with Markov Chain method
 
-problem 6: Homogeneous pebble game. (pebble.c)
+Problem 6: Homogeneous pebble game. (pebble.c)
+
+Problem 7: Circular Motin (CicularMotion.c)
 
 
