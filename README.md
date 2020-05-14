@@ -17,4 +17,6 @@ Problem 6: Homogeneous pebble game. (pebble.c)
 
 Problem 7: Circular Motin (CicularMotion.c)
 
+Problem 8: Simple Pendulum (SimplePendulum.c)
+
 
