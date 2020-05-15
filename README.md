@@ -19,4 +19,8 @@ Problem 7: Circular Motin (CicularMotion.c)
 
 Problem 8: Simple Pendulum (SimplePendulum.c)
 
+****************************************************
+
+Problem 9: Projectile motion (Projectile.c)
+
 
