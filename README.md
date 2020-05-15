@@ -23,4 +23,8 @@ Problem 8: Simple Pendulum (SimplePendulum.c)
 
 Problem 9: Projectile motion (Projectile.c)
 
+****************************************************
+
+Problem 10: Projectile motion with Air resistance (ProjectileAirRes.c)
+
 
