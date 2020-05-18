@@ -27,4 +27,8 @@ Problem 9: Projectile motion (Projectile.c)
 
 Problem 10: Projectile motion with Air resistance (ProjectileAirRes.c)
 
+****************************************************
+
+Problem 11: Lissajous graph as anisotropic oscilattor (Lissajous.c)
+
 
