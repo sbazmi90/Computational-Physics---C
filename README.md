@@ -51,4 +51,8 @@ Problem 12: Conical pendulum equations (ConicalPendulum.c)
 
 ****************************************************
 
+Problem 13: A charge particle in Magnetic field (ChargeinB.c)
+
+****************************************************
+
 
