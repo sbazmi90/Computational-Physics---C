@@ -55,4 +55,8 @@ Problem 13: A charge particle in Magnetic field (ChargeinB.c)
 
 ****************************************************
 
+Problem 14 & 15: Simulate one dimensional box that contains
 
+a free particle with known potential. (Box1DV1.c & Box1DV2.c)
+
+****************************************************
